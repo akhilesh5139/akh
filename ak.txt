@@ -1,0 +1,71 @@
+1.Diffence between osi/tcp/ip system 2.explain MAC indetial LALOHA,CSMA/CD.mediumaccess control protocols. 3.Explain the importance of ip addrings a.what is class A and write its ranges b.what is class B and write its ranges c.what is class c and write its ranges give the ans in simple words
+
+
+I'd be happy to help you with your questions.
+
+1. Difference between OSI/TCP/IP system
+
+The OSI (Open Systems Interconnection) model and TCP/IP (Transmission Control Protocol/Internet Protocol) model are two different conceptual frameworks used to understand how data is transmitted over a network.
+
+OSI Model:
+
+The OSI model is a 7-layered framework that helps understand how data is transmitted between devices on a network. The layers are:
+
+Physical (Layer 1)
+Data Link (Layer 2)
+Network (Layer 3)
+Transport (Layer 4)
+Session (Layer 5)
+Presentation (Layer 6)
+Application (Layer 7)
+Each layer has a specific function, and data is transmitted from one layer to the next, with each layer adding its own headers and information.
+
+TCP/IP Model:
+
+The TCP/IP model is a 4-layered framework that is used to implement the OSI model. The layers are:
+
+Network Access (combines OSI's Physical and Data Link layers)
+Internet (similar to OSI's Network layer)
+Transport (similar to OSI's Transport layer)
+Application (similar to OSI's Session, Presentation, and Application layers)
+The main difference between the two models is that the OSI model is a more theoretical framework, while the TCP/IP model is a more practical implementation of the OSI model.
+
+2. MAC, LALOHA, CSMA/CD, and Medium Access Control Protocols
+
+MAC (Media Access Control):
+
+MAC is a sublayer of the Data Link layer (Layer 2) in the OSI model. It is responsible for controlling access to the network medium, resolving collisions, and transmitting data frames.
+
+LALOHA (Local Area Local Optical Hybrid Access):
+
+LALOHA is a medium access control protocol used in wireless networks. It is a hybrid protocol that combines the advantages of both Aloha and CSMA/CD protocols.
+
+CSMA/CD (Carrier Sense Multiple Access with Collision Detection):
+
+CSMA/CD is a medium access control protocol used in Ethernet networks. It is a contention-based protocol, where devices sense the network medium before transmitting data. If a collision is detected, the devices back off and retry transmission.
+
+Medium Access Control Protocols:
+
+Medium access control protocols are used to manage access to the network medium, preventing collisions and ensuring efficient data transmission. Some common medium access control protocols include:
+
+CSMA/CD (Ethernet)
+CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) (Wi-Fi)
+Token Ring (Token Ring networks)
+LALOHA (Wireless networks)
+3. Importance of IP Addressing
+
+IP addressing is crucial in computer networks because it allows devices to identify and communicate with each other. IP addresses are used to route data packets between devices on a network.
+
+a. Class A IP Addresses:
+
+Class A IP addresses have a range of 0.0.0.0 to 127.255.255.255. The first octet (0-127) identifies the network, and the remaining three octets identify the host.
+
+b. Class B IP Addresses:
+
+Class B IP addresses have a range of 128.0.0.0 to 191.255.255.255. The first two octets (128-191) identify the network, and the remaining two octets identify the host.
+
+c. Class C IP Addresses:
+
+Class C IP addresses have a range of 192.0.0.0 to 223.255.255.255. The first three octets (192-223) identify the network, and the remaining octet identifies the host.
+
+In simple words, IP addresses are like street addresses for devices on a network. They help devices find each other and communicate efficiently. The different classes of IP addresses (A, B, and C) are used to organize and manage the vast number of devices on the internet.
